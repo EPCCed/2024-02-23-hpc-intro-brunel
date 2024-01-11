@@ -474,12 +474,12 @@ The program used in this example can be retrieved using wget or a browser and co
 
 **Using wget**: 
 ```bash
-userid@ln03:~> wget https://epcced.github.io/2023-12-15-noc-hpcintro/files/pi-mpi.py
+userid@ln03:~> wget https://epcced.github.io/2024-01-19-hpc-intro-noc/files/pi-mpi.py
 ```
 
 **Using a web browser**:
 
-[https://epcced.github.io/2023-12-15-noc-hpcintro/files/pi-mpi.py](https://epcced.github.io/2023-12-15-noc-hpcintro/files/pi-mpi.py)
+[https://epcced.github.io/2024-01-19-hpc-intro-noc/files/pi-mpi.py](https://epcced.github.io/2024-01-19-hpc-intro-noc/files/pi-mpi.py)
 
 :::
 
