@@ -1,117 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/10-connecting.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/10-connecting.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/11-hpc-intro.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/11-hpc-intro.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/12-cluster.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/12-cluster.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/13-scheduler.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/13-scheduler.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/14-modules.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/14-modules.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/15-transferring-files.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/15-transferring-files.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/17-resources.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/17-resources.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/18-responsibility.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/18-responsibility.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/404.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/404.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/CODE_OF_CONDUCT.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/LICENSE.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/aio.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/aio.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/images.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/images.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/index.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/index.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/10-connecting.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/10-connecting.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/11-hpc-intro.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/11-hpc-intro.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/12-cluster.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/12-cluster.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/13-scheduler.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/13-scheduler.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/14-modules.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/14-modules.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/15-transferring-files.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/15-transferring-files.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/17-resources.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/17-resources.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/18-responsibility.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/18-responsibility.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/404.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/404.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/LICENSE.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/aio.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/aio.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/images.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/images.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/index.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/index.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/instructor-notes.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/instructor-notes.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/key-points.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/key-points.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/profiles.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/profiles.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/reference.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/reference.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor/workshop-details.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor/workshop-details.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/instructor-notes.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/instructor-notes.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/key-points.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/key-points.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/profiles.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/profiles.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/reference.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/reference.html</loc>
   </url>
   <url>
-    <loc>https://EPCCed.github.io/2023-06-28-uoe-hpcintro/workshop-details.html</loc>
+    <loc>https://EPCCed.github.io/2023-01-19-hpc-intro-noc/workshop-details.html</loc>
   </url>
 </urlset>
