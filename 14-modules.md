@@ -71,7 +71,7 @@ you are using.
 To see available software modules, use `module avail`:
 
 ```bash
-userid@uan01:/work/ta114/ta114/userid> module avail
+userid@uan01:/work/ta133/ta133/userid> module avail
 ```
 
 ```output
@@ -108,7 +108,7 @@ loaded in your environment. If you have no modules loaded, you will see a
 message telling you so
 
 ```bash
-userid@uan01:/work/ta114/ta114/userid> module list
+userid@uan01:/work/ta133/ta133/userid> module list
 ```
 ```output
 Currently Loaded Modulefiles:
@@ -229,8 +229,8 @@ compute node).
 ::: solution
 
 ```bash
-userid@uan01:/work/ta114/ta114/userid> nano ncdump-module.sh
-userid@uan01:/work/ta114/ta114/userid> cat ncdump-module.sh
+userid@uan01:/work/ta133/ta133/userid> nano ncdump-module.sh
+userid@uan01:/work/ta133/ta133/userid> cat ncdump-module.sh
 ```
 ```output
 #!/bin/bash
@@ -243,7 +243,7 @@ ncdump --version
 ```
 
 ```bash
-userid@uan01:/work/ta114/ta114/userid>  python-module.sh
+userid@uan01:/work/ta133/ta133/userid>  python-module.sh
 ```
 :::
 :::

@@ -152,7 +152,7 @@ by the application itself and also includes static overheads from running the jo
 use `sacct -l -j` with the job ID, e.g.:
 
 ```bash
-userid@uan01:/work/ta114/ta114/userid> sacct -l -j 12345
+userid@uan01:/work/ta133/ta133/userid> sacct -l -j 12345
 ```
 ```output
 
