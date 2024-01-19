@@ -95,7 +95,7 @@ userid@ln03:~> sbatch --partition=standard --qos=short example-job.sh
 
 ```output
 sbatch: Warning: Your job has no time specification (--time=) and the default time is short. You can cancel your job with 'scancel <JOB_ID>' if you wish to resubmit.
-sbatch: Warning: It appears your working directory may be on the home filesystem. It is /home2/home/ta114/ta114/userid. This is not available from the compute nodes - please check that this is what you intended. You can cancel your job with 'scancel <JOBID>' if you wish to resubmit.
+sbatch: Warning: It appears your working directory may be on the home filesystem. It is /home2/home/ta133/ta133/userid. This is not available from the compute nodes - please check that this is what you intended. You can cancel your job with 'scancel <JOBID>' if you wish to resubmit.
 Submitted batch job 286949
 ```
 
@@ -106,7 +106,7 @@ compute nodes. On ARCHER2, this is the `/work` file system. The path is similar 
 `/work` at the start. Lets move there now, copy our job script across and resubmit:
 
 ```bash
-userid@ln03:~> cd /work/ta114/ta114/userid
+userid@ln03:~> cd /work/ta133/ta133/userid
 userid@uan01:/work/ta133/ta133/userid> cp ~/example-job.sh .
 userid@uan01:/work/ta133/ta133/userid> sbatch --partition=standard --qos=short example-job.sh
 ```
@@ -264,7 +264,7 @@ userid@uan01:/work/ta133/ta133/userid> cat example-job.sh
 #SBATCH --time 00:01:15
 #SBATCH --partition=standard
 #SBATCH --qos=short
-#SBATCH --reservation=shortqos
+#SBATCH --reservation=
 echo -n "This script is running on "
 sleep 60 # time in seconds
 hostname
@@ -305,7 +305,7 @@ userid@uan01:/work/ta133/ta133/userid> cat example-job.sh
 #SBATCH --time 00:00:30
 #SBATCH --partition=standard
 #SBATCH --qos=short
-#SBATCH --reservation=shortqos
+#SBATCH --reservation=
 
 echo "This script is running on ... "
 sleep 120 # time in seconds
@@ -494,7 +494,7 @@ script that runs the program across two compute nodes on the cluster. Create a f
 
 #SBATCH --partition=standard
 #SBATCH --qos=short
-#SBATCH --reservation=shortqos
+#SBATCH --reservation=
 #SBATCH --time=00:05:00
 
 #SBATCH --nodes=1
@@ -545,7 +545,7 @@ Here is a modified script
 
 #SBATCH --partition=standard
 #SBATCH --qos=short
-#SBATCH --reservation=shortqos
+#SBATCH --reservation=
 #SBATCH --time=00:00:30
 
 #SBATCH --nodes=1

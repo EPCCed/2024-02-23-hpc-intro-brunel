@@ -236,7 +236,7 @@ userid@uan01:/work/ta133/ta133/userid> cat ncdump-module.sh
 #!/bin/bash
 #SBATCH --partition=standard
 #SBATCH --qos=short
-#SBATCH --reservation=shortqos
+#SBATCH --reservation=
 module load epcc-job-env
 module load cray-netcdf
 ncdump --version

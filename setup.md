@@ -240,7 +240,7 @@ existing account code (the cost of the jobs is negligible as they are very short
 the ARCHER2 `short` QoS . When the course talks about setting the following options:
 
 ```bash
---qos=short --reservation=shortqos
+--qos=short --reservation=
 ```
 you should replace them with:
 
@@ -252,7 +252,7 @@ Similarly, when you are writing job submission scripts, you should replace:
 
 ```bash
 #SBATCH --qos=standard
-#SBATCH --reservation=shortqos
+#SBATCH --reservation=
 ```
 
 with
