@@ -24,7 +24,7 @@ Benchmarking is essentially performing simple experiments to help understand
 how the performance of our work varies as we change the properties of the
 jobs on the cluster - including input parameters, job options and resources used.
 
-::: dicussion
+::: discussion
 ## Our example
 In the rest of this episode, we will use an example parallel application that calculates 
 an estimate of the value of Pi. Although this is a toy problem, it exhibits all the properties of a full
@@ -64,12 +64,12 @@ The program used in this example can be retrieved using wget or a browser and co
 
 **Using wget**: 
 ```bash
-userid@ln03:~> wget https://epcced.github.io/2024-01-19-hpc-intro-noc/files/pi-mpi.py
+userid@ln03:~> wget https://epcced.github.io/2024-02-23-hpc-intro-brunel/files/pi-mpi.py
 ```
 
 **Using a web browser**:
 
-[https://epcced.github.io/2024-01-19-hpc-intro-noc/files/pi-mpi.py](https://epcced.github.io/2024-01-19-hpc-intro-noc/files/pi-mpi.py)
+[https://epcced.github.io/2024-02-23-hpc-intro-brunel/files/pi-mpi.py](https://epcced.github.io/2024-02-23-hpc-intro-brunel/files/pi-mpi.py)
 
 :::
 
@@ -152,7 +152,7 @@ by the application itself and also includes static overheads from running the jo
 use `sacct -l -j` with the job ID, e.g.:
 
 ```bash
-userid@uan01:/work/ta133/ta133/userid> sacct -l -j 12345
+userid@uan01:/work/ta140/ta140/userid> sacct -l -j 12345
 ```
 ```output
 

@@ -204,7 +204,7 @@ If you are already registered on the SAFE you do not need to re-register. Please
 
 1. [Login to SAFE](https://safe.epcc.ed.ac.uk)
 2. Go to the Menu "Login accounts" and select "Request login account"
-3. Choose the `ta133` project “Choose Project for Machine Account” box and click "Next"
+3. Choose the `ta140` project “Choose Project for Machine Account” box and click "Next"
 4. On the next page, the ARCHER2 system should be selected. Click "Next"
 5. Enter the username you would prefer to use on ARCHER2. Every username must be unique, so if your chosen name is taken, you will need to choose another
 
@@ -233,33 +233,10 @@ You should now be able to log into ARCHER2 by following the [login instructions 
 
 ### Using an existing ARCHER2 account
 
-If you wish to use an existing ARCHER2 account for the course, that is perfectly fine. The
-only differences from the specific course account are that you will not have access to the
-the node reservations for the course or the course account code. Instead, you can use your
-existing account code (the cost of the jobs is negligible as they are very short and small) and
-the ARCHER2 `short` QoS . When the course talks about setting the following options:
-
-```bash
---qos=short --reservation=
-```
-you should replace them with:
-
-```bash
---qos=short --reservation=short
-```
-
-Similarly, when you are writing job submission scripts, you should replace:
-
-```bash
-#SBATCH --qos=standard
-#SBATCH --reservation=
-```
-
-with
-
-```bash
-#SBATCH --qos=short
-#SBATCH --reservation=short
-```
+If you wish to use an existing ARCHER2 account for the course, that is perfectly
+fine. The only differences from the specific course account are that you will not
+have access to the course account code. Instead, you can use your existing
+account code (the cost of the jobs is negligible as they are very short and
+small).
 
 ::::::::::::::::::::::
