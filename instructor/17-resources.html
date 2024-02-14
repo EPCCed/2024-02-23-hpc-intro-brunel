@@ -73,7 +73,7 @@
           <button class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             More <i data-feather="chevron-down"></i>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><hr><li><a class="dropdown-item" href="reference.html">Reference</a></li><li><a class="dropdown-item" href="workshop-details.html">Workshop Details</a></li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><hr><li><a class="dropdown-item" href="reference.html">Reference</a></li>
           </ul></li>
       </ul></div>
     <form class="d-flex col-md-2 search-form">
@@ -86,11 +86,11 @@
   ARCHER2 Introduction to HPC Software Carpentry
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 81%" class="percentage">
-    81%
+<aside class="col-md-12 lesson-progress"><div style="width: 78%" class="percentage">
+    78%
   </div>
   <div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: 81%" aria-valuenow="81" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar incubator" role="progressbar" style="width: 78%" aria-valuenow="78" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -147,7 +147,7 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="10-connecting.html">1. Connecting to the remote HPC systemd</a>
+        <a href="11-hpc-intro.html">1. Why use an HPC System?</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -156,7 +156,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="11-hpc-intro.html">2. Why use an HPC System?</a>
+        <a href="12-cluster.html">2. Working on a remote HPC system</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -165,7 +165,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="12-cluster.html">3. Working on a remote HPC system</a>
+        <a href="13-scheduler.html">3. Working with the scheduler</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -174,7 +174,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="13-scheduler.html">4. Working with the scheduler</a>
+        <a href="14-modules.html">4. Accessing software via Modules</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -183,16 +183,7 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="14-modules.html">5. Accessing software via Modules</a>
-    </div><!--/div.accordion-header-->
-        
-  </div><!--/div.accordion-item-->
-</div><!--/div.accordion-flush-->
-
-<div class="accordion accordion-flush" id="accordionFlush7">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading7">
-        <a href="15-transferring-files.html">6. Transferring files with remote computers</a>
+        <a href="15-transferring-files.html">5. Transferring files with remote computers</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -204,7 +195,7 @@
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
-        7. Using resources effectively
+        6. Using resources effectively
         </span>
       </button>
     </div><!--/div.accordion-header-->
@@ -222,10 +213,10 @@
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
 
-<div class="accordion accordion-flush" id="accordionFlush9">
+<div class="accordion accordion-flush" id="accordionFlush8">
   <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading9">
-        <a href="18-responsibility.html">8. Using shared resources responsibly</a>
+    <div class="accordion-header" id="flush-heading8">
+        <a href="18-responsibility.html">7. Using shared resources responsibly</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -253,7 +244,7 @@
                       <li>
                         <a href="../instructor/images.html">Extract All Images</a>
                       </li>
-                      <hr><li><a class="dropdown-item" href="reference.html">Reference</a></li><li><a class="dropdown-item" href="workshop-details.html">Workshop Details</a></li>
+                      <hr><li><a class="dropdown-item" href="reference.html">Reference</a></li>
                     </ul></div>
                 </div>
               </div>
@@ -289,9 +280,9 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Using resources effectively</h1>
-        <p>Last updated on 2024-02-13 |
+        <p>Last updated on 2024-02-14 |
         
-        <a href="https://github.com/EPCCed/2024-01-19-hpc-intro-noc/edit/main/episodes/17-resources.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/edit/main/episodes/17-resources.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
         
         
@@ -334,8 +325,14 @@ the basics of <em>benchmarking</em>. Benchmarking is essentially
 performing simple experiments to help understand how the performance of
 our work varies as we change the properties of the jobs on the cluster -
 including input parameters, job options and resources used.</p>
-<div class="section level2 dicussion">
-<h2 id="our-example">Our example<a class="anchor" aria-label="anchor" href="#our-example"></a></h2>
+<div id="our-example" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="our-example" class="callout-inner">
+<h3 class="callout-title">Our example<a class="anchor" aria-label="anchor" href="#our-example"></a>
+</h3>
+<div class="callout-content">
 <p>In the rest of this episode, we will use an example parallel
 application that calculates an estimate of the value of Pi. Although
 this is a toy problem, it exhibits all the properties of a full parallel
@@ -355,6 +352,8 @@ we increase the core count so we are using more cores to solve a larger
 problem.</li>
 </ul><p>Both of these approaches are equally valid uses of HPC. This example
 looks at strong scaling.</p>
+</div>
+</div>
 </div>
 <p>Before we work on benchmarking, it is useful to define some terms for
 the example we will be using</p>
@@ -380,10 +379,10 @@ browser and copied to the remote.</p>
 <div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">userid@ln03:~</span><span class="op">&gt;</span> wget https://epcced.github.io/2024-01-19-hpc-intro-noc/files/pi-mpi.py</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">userid@ln03:~</span><span class="op">&gt;</span> wget https://epcced.github.io/2024-02-23-hpc-intro-brunel/files/pi-mpi.py</span></code></pre>
 </div>
 <p><strong>Using a web browser</strong>:</p>
-<p><a href="https://epcced.github.io/2024-01-19-hpc-intro-noc/files/pi-mpi.py" class="external-link">https://epcced.github.io/2024-01-19-hpc-intro-noc/files/pi-mpi.py</a></p>
+<p><a href="https://epcced.github.io/2024-02-23-hpc-intro-brunel/files/pi-mpi.py" class="external-link">https://epcced.github.io/2024-02-23-hpc-intro-brunel/files/pi-mpi.py</a></p>
 </div>
 </div>
 </div>
@@ -420,7 +419,7 @@ worked or not.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Creating a file called <code>submit-pi-mpi.slurm</code>:</p>
 <div class="codewrapper sourceCode" id="cb2">
@@ -488,7 +487,7 @@ job ID, e.g.:</p>
 <div class="codewrapper sourceCode" id="cb7">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">userid@uan01:/work/ta133/ta133/userid</span><span class="op">&gt;</span> sacct <span class="at">-l</span> <span class="at">-j</span> 12345</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">userid@uan01:/work/ta140/ta140/userid</span><span class="op">&gt;</span> sacct <span class="at">-l</span> <span class="at">-j</span> 12345</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -577,7 +576,7 @@ figure for the Calculation core seconds. Is this what you observe?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>The table below shows example timings for runs on ARCHER2</p>
 <table class="table"><colgroup><col width="13%"><col width="25%"><col width="25%"><col width="36%"></colgroup><thead><tr class="header"><th align="right">Cores</th>
@@ -725,7 +724,7 @@ choose this option?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>The table below gives example results for ARCHER2 based on the
 example runtimes given in the solution above.</p>
@@ -876,12 +875,12 @@ use like [gitbash][gitbash]
         <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
         
-        <a href="https://github.com/EPCCed/2024-01-19-hpc-intro-noc/edit/main/episodes/17-resources.Rmd" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/edit/main/episodes/17-resources.Rmd" class="external-link">Edit on GitHub</a>
         
 	
-        | <a href="https://github.com/EPCCed/2024-01-19-hpc-intro-noc/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
-        | <a href="https://github.com/EPCCed/2024-01-19-hpc-intro-noc/" class="external-link">Source</a></p>
-				<p><a href="https://github.com/EPCCed/2024-01-19-hpc-intro-noc/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:support@archer2.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
+        | <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/" class="external-link">Source</a></p>
+				<p><a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:support@archer2.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
         
@@ -900,18 +899,18 @@ use like [gitbash][gitbash]
     {
   "@context": "https://schema.org",
   "@type": "TrainingMaterial",
-  "@id": "https://EPCCed.github.io/2024-01-19-hpc-intro-noc/instructor/17-resources.html",
+  "@id": "https://EPCCed.github.io/2024-02-23-hpc-intro-brunel/instructor/17-resources.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
   "keywords": "software, data, lesson, The Carpentries, HPC, EPCC",
   "name": "Using resources effectively",
   "creativeWorkStatus": "active",
-  "url": "https://EPCCed.github.io/2024-01-19-hpc-intro-noc/instructor/17-resources.html",
-  "identifier": "https://EPCCed.github.io/2024-01-19-hpc-intro-noc/instructor/17-resources.html",
-  "dateCreated": "2023-06-14",
-  "dateModified": "2024-02-13",
-  "datePublished": "2024-02-13"
+  "url": "https://EPCCed.github.io/2024-02-23-hpc-intro-brunel/instructor/17-resources.html",
+  "identifier": "https://EPCCed.github.io/2024-02-23-hpc-intro-brunel/instructor/17-resources.html",
+  "dateCreated": "2024-02-14",
+  "dateModified": "2024-02-14",
+  "datePublished": "2024-02-14"
 }
 
   </script><script>

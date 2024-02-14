@@ -73,7 +73,7 @@
           <button class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             More <i data-feather="chevron-down"></i>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><li><a class="dropdown-item" href="reference.html">Reference</a></li><li><a class="dropdown-item" href="workshop-details.html">Workshop Details</a></li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><li><a class="dropdown-item" href="reference.html">Reference</a></li>
           </ul></li>
       </ul></div>
     <form class="d-flex col-md-2 search-form">
@@ -151,7 +151,7 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="10-connecting.html">1. Connecting to the remote HPC systemd</a>
+        <a href="11-hpc-intro.html">1. Why use an HPC System?</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -160,7 +160,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="11-hpc-intro.html">2. Why use an HPC System?</a>
+        <a href="12-cluster.html">2. Working on a remote HPC system</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -169,7 +169,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="12-cluster.html">3. Working on a remote HPC system</a>
+        <a href="13-scheduler.html">3. Working with the scheduler</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -178,7 +178,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="13-scheduler.html">4. Working with the scheduler</a>
+        <a href="14-modules.html">4. Accessing software via Modules</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -187,7 +187,7 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="14-modules.html">5. Accessing software via Modules</a>
+        <a href="15-transferring-files.html">5. Transferring files with remote computers</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -196,7 +196,7 @@
 <div class="accordion accordion-flush" id="accordionFlush7">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading7">
-        <a href="15-transferring-files.html">6. Transferring files with remote computers</a>
+        <a href="17-resources.html">6. Using resources effectively</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -205,16 +205,7 @@
 <div class="accordion accordion-flush" id="accordionFlush8">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading8">
-        <a href="17-resources.html">7. Using resources effectively</a>
-    </div><!--/div.accordion-header-->
-        
-  </div><!--/div.accordion-item-->
-</div><!--/div.accordion-flush-->
-
-<div class="accordion accordion-flush" id="accordionFlush9">
-  <div class="accordion-item">
-    <div class="accordion-header" id="flush-heading9">
-        <a href="18-responsibility.html">8. Using shared resources responsibly</a>
+        <a href="18-responsibility.html">7. Using shared resources responsibly</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -242,7 +233,7 @@
                       <li>
                         <a href="profiles.html">Learner Profiles</a>
                       </li>
-                      <li><a href="reference.html">Reference</a></li><li><a href="workshop-details.html">Workshop Details</a></li>
+                      <li><a href="reference.html">Reference</a></li>
                     </ul></div>
                 </div>
               </div>
@@ -262,11 +253,11 @@
         <!-- START: inst/pkgdown/templates/content-syllabus.html -->
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link float-end" href="10-connecting.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="11-hpc-intro.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link float-end" href="10-connecting.html" rel="next">Next: Connecting to the... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="11-hpc-intro.html" rel="next">Next: Why use an HPC... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <hr></nav><main id="main-content" class="main-content"><h1 class="schedule-heading">Summary and Setup</h1>
       
@@ -280,25 +271,17 @@
 </h3>
 <div class="callout-content">
 <p>To begin this lesson you must have completed the following</p>
-<ul><li>
-<a href="#registration">Register</a> for the course</li>
-<li>Participants must bring a laptop with a Mac, Linux, or Windows
+<ul><li>Participants must bring a laptop with a Mac, Linux, or Windows
 operating system (not a tablet, Chromebook, etc.) that they can download
 and run MobaXterm on. Alternatively, they should have a few specific
 software packages installed (listed in the Setup section below). They
 are also required to abide by the ARCHER2 Training Code of Conduct.</li>
-<li>Attendees should be familiar with using the bash shell. This is
-covered in the introduction to the shell HPC course.</li>
-<li>Complete the software/system <a href="#setup">setup</a> including
-the connection to Archer2 via <a href="#setup-an-ssh-client">SSH</a>.</li>
+<li>Complete the software/system <a href="#shell-setup">setup</a>
+including the connection to ARCHER2 via <a href="#connect-to-archer2">SSH</a>.</li>
 </ul></div>
 </div>
 </div>
-<section id="registration"><h2 class="section-heading">Registration<a class="anchor" aria-label="anchor" href="#registration"></a>
-</h2>
-<hr class="half-width"><p>Please use the <a href="https://www.archer2.ac.uk/training/register/?course=230626-software-carpentry" class="external-link">ARCHER2
-course registration form</a> to sign up for the workshop.</p>
-</section><section id="general-information"><h2 class="section-heading">General Information<a class="anchor" aria-label="anchor" href="#general-information"></a>
+<section id="general-information"><h2 class="section-heading">General Information<a class="anchor" aria-label="anchor" href="#general-information"></a>
 </h2>
 <hr class="half-width"><p>This lesson is an introduction to using high-performance computing
 systems effectively. We obviously can’t cover every case or give an
@@ -597,7 +580,7 @@ your password.</li>
 <ol style="list-style-type: decimal"><li><a href="https://safe.epcc.ed.ac.uk" class="external-link">Login to SAFE</a></li>
 <li>Go to the Menu “Login accounts” and select “Request login
 account”</li>
-<li>Choose the <code>ta133</code> project “Choose Project for Machine
+<li>Choose the <code>ta140</code> project “Choose Project for Machine
 Account” box and click “Next”</li>
 <li>On the next page, the ARCHER2 system should be selected. Click
 “Next”</li>
@@ -642,37 +625,9 @@ instructions in the ARCHER2 documentation</a>.</p>
 <h3 id="using-an-existing-archer2-account">Using an existing ARCHER2 account<a class="anchor" aria-label="anchor" href="#using-an-existing-archer2-account"></a></h3>
 <p>If you wish to use an existing ARCHER2 account for the course, that
 is perfectly fine. The only differences from the specific course account
-are that you will not have access to the the node reservations for the
-course or the course account code. Instead, you can use your existing
-account code (the cost of the jobs is negligible as they are very short
-and small) and the ARCHER2 <code>short</code> QoS . When the course
-talks about setting the following options:</p>
-<div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">--qos=short</span> <span class="at">--reservation</span><span class="op">=</span></span></code></pre>
-</div>
-<p>you should replace them with:</p>
-<div class="codewrapper sourceCode" id="cb2">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">--qos=short</span> <span class="at">--reservation</span><span class="op">=</span>short</span></code></pre>
-</div>
-<p>Similarly, when you are writing job submission scripts, you should
-replace:</p>
-<div class="codewrapper sourceCode" id="cb3">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --qos=standard</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --reservation=</span></span></code></pre>
-</div>
-<p>with</p>
-<div class="codewrapper sourceCode" id="cb4">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --qos=short</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">#SBATCH --reservation=short</span></span></code></pre>
-</div>
+are that you will not have access to the course account code. Instead,
+you can use your existing account code (the cost of the jobs is
+negligible as they are very short and small).</p>
 </div>
 </div>
 </div>
@@ -687,11 +642,11 @@ use like [gitbash][gitbash]
 </div>
 
       </section></main><nav class="bottom-pagination mx-md-4" aria-label="Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link float-end" href="10-connecting.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="11-hpc-intro.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link float-end" href="10-connecting.html" rel="next">Next: Connecting to the... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="11-hpc-intro.html" rel="next">Next: Why use an HPC... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
     </nav></div>
 <!-- END  : inst/pkgdown/templates/content-syllabus.html -->
@@ -701,12 +656,12 @@ use like [gitbash][gitbash]
         <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
         
-        <a href="https://github.com/EPCCed/2024-01-19-hpc-intro-noc/edit/main/index.md" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/edit/main/index.md" class="external-link">Edit on GitHub</a>
         
 	
-        | <a href="https://github.com/EPCCed/2024-01-19-hpc-intro-noc/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
-        | <a href="https://github.com/EPCCed/2024-01-19-hpc-intro-noc/" class="external-link">Source</a></p>
-				<p><a href="https://github.com/EPCCed/2024-01-19-hpc-intro-noc/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:support@archer2.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        | <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
+        | <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/" class="external-link">Source</a></p>
+				<p><a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:support@archer2.ac.uk">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
         
@@ -725,18 +680,18 @@ use like [gitbash][gitbash]
     {
   "@context": "https://schema.org",
   "@type": "TrainingMaterial",
-  "@id": "https://EPCCed.github.io/2024-01-19-hpc-intro-noc/index.html",
+  "@id": "https://EPCCed.github.io/2024-02-23-hpc-intro-brunel/index.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
   "keywords": "software, data, lesson, The Carpentries, HPC, EPCC",
   "name": "ARCHER2 Introduction to HPC Software Carpentry",
   "creativeWorkStatus": "active",
-  "url": "https://EPCCed.github.io/2024-01-19-hpc-intro-noc/index.html",
-  "identifier": "https://EPCCed.github.io/2024-01-19-hpc-intro-noc/index.html",
-  "dateCreated": "2023-06-14",
-  "dateModified": "2024-02-13",
-  "datePublished": "2024-02-13"
+  "url": "https://EPCCed.github.io/2024-02-23-hpc-intro-brunel/index.html",
+  "identifier": "https://EPCCed.github.io/2024-02-23-hpc-intro-brunel/index.html",
+  "dateCreated": "2024-02-14",
+  "dateModified": "2024-02-14",
+  "datePublished": "2024-02-14"
 }
 
   </script><script>
