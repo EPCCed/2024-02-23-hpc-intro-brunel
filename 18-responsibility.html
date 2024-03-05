@@ -279,7 +279,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Using shared resources responsibly</h1>
-        <p>Last updated on 2024-02-27 |
+        <p>Last updated on 2024-03-05 |
         
         <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/edit/main/episodes/18-responsibility.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -343,13 +343,12 @@ development tools. The cluster may have modules that need to be loaded,
 possibly in a certain order, and paths or library versions that differ
 from your laptop, and doing an interactive test run on the head node is
 a quick and reliable way to discover and fix these issues.</p>
-<div id="login-nodes-are-a-shared-resource" class="callout callout">
+<div id="callout1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="login-nodes-are-a-shared-resource" class="callout-inner">
-<h3 class="callout-title">Login Nodes Are a Shared Resource<a class="anchor" aria-label="anchor" href="#login-nodes-are-a-shared-resource"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="login-nodes-are-a-shared-resource">Login Nodes Are a Shared Resource<a class="anchor" aria-label="anchor" href="#login-nodes-are-a-shared-resource"></a></h3>
 <div class="callout-content">
 <p>Remember, the login node is shared with all other users and your
 actions could cause issues for other people. Think carefully about the
@@ -429,14 +428,13 @@ to fail within 10 seconds of starting due to a trivial typo in the job
 script. This is extremely frustrating! Most systems provide dedicated
 resources for testing that have short wait times to help you avoid this
 issue.</p>
-<div id="test-job-submission-scripts-that-use-large-amounts-of-resources" class="callout callout">
+<div id="callout2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="test-job-submission-scripts-that-use-large-amounts-of-resources" class="callout-inner">
-<h3 class="callout-title">Test Job Submission Scripts That Use Large
-Amounts of Resources<a class="anchor" aria-label="anchor" href="#test-job-submission-scripts-that-use-large-amounts-of-resources"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="test-job-submission-scripts-that-use-large-amounts-of-resources">Test Job Submission Scripts That Use Large
+Amounts of Resources<a class="anchor" aria-label="anchor" href="#test-job-submission-scripts-that-use-large-amounts-of-resources"></a></h3>
 <div class="callout-content">
 <p>Before submitting a large run of jobs, submit one as a test first to
 make sure everything works as expected.</p>
@@ -471,13 +469,12 @@ the system for your research).</p>
 <p>In all these cases, the service desk of the system you are using
 should be able to provide useful guidance on your options for data
 transfer for the volumes of data you will be using.</p>
-<div id="your-data-is-your-responsibility" class="callout callout">
+<div id="callout3" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="your-data-is-your-responsibility" class="callout-inner">
-<h3 class="callout-title">Your Data Is Your Responsibility<a class="anchor" aria-label="anchor" href="#your-data-is-your-responsibility"></a>
-</h3>
+<div class="section level3 callout-title callout-inner">
+<h3 class="callout-title" id="your-data-is-your-responsibility">Your Data Is Your Responsibility<a class="anchor" aria-label="anchor" href="#your-data-is-your-responsibility"></a></h3>
 <div class="callout-content">
 <p>Make sure you understand what the backup policy is on the file
 systems on the system you are using and what implications this has for
@@ -571,35 +568,35 @@ the following would be the best way to transfer them to ARCHER2?</p>
 </ol><div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ scp <span class="at">-r</span> data userid@login.archer2.ac.uk:~/</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ scp <span class="at">-r</span> data userid@login.archer2.ac.uk:~/</span></code></pre>
 </div>
 <ol start="2" style="list-style-type: decimal"><li>Using <code>rsync</code>?</li>
 </ol><div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ rsync <span class="at">-ra</span> data userid@login.archer2.ac.uk:~/</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ rsync <span class="at">-ra</span> data userid@login.archer2.ac.uk:~/</span></code></pre>
 </div>
 <ol start="3" style="list-style-type: decimal"><li>Using <code>rsync</code> with compression?</li>
 </ol><div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ rsync <span class="at">-raz</span> data userid@login.archer2.ac.uk:~/</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ rsync <span class="at">-raz</span> data userid@login.archer2.ac.uk:~/</span></code></pre>
 </div>
 <ol start="4" style="list-style-type: decimal"><li>Creating a <code>tar</code> archive first for
 <code>rsync</code>?</li>
 </ol><div class="codewrapper sourceCode" id="cb4">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ tar <span class="at">-cvf</span> data.tar data</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ rsync <span class="at">-raz</span> data.tar userid@login.archer2.ac.uk:~/</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ tar <span class="at">-cvf</span> data.tar data</span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ rsync <span class="at">-raz</span> data.tar userid@login.archer2.ac.uk:~/</span></code></pre>
 </div>
 <ol start="5" style="list-style-type: decimal"><li>Creating a compressed <code>tar</code> archive for
 <code>rsync</code>?</li>
 </ol><div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ tar <span class="at">-cvzf</span> data.tar.gz data</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ rsync <span class="at">-ra</span> data.tar.gz userid@login.archer2.ac.uk:~/</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ tar <span class="at">-cvzf</span> data.tar.gz data</span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ rsync <span class="at">-ra</span> data.tar.gz userid@login.archer2.ac.uk:~/</span></code></pre>
 </div>
 </div>
 </div>
@@ -716,8 +713,8 @@ use like [gitbash][gitbash]
   "url": "https://EPCCed.github.io/2024-02-23-hpc-intro-brunel/18-responsibility.html",
   "identifier": "https://EPCCed.github.io/2024-02-23-hpc-intro-brunel/18-responsibility.html",
   "dateCreated": "2024-02-14",
-  "dateModified": "2024-02-27",
-  "datePublished": "2024-02-27"
+  "dateModified": "2024-03-05",
+  "datePublished": "2024-03-05"
 }
 
   </script><script>
