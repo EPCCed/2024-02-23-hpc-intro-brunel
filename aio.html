@@ -318,7 +318,7 @@
         
 <section id="aio-11-hpc-intro"><p>Content from <a href="11-hpc-intro.html">Why use an HPC System?</a></p>
 <hr>
-<p>Last updated on 2024-03-12 |
+<p>Last updated on 2024-03-19 |
         
         <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/edit/main/episodes/11-hpc-intro.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -557,7 +557,7 @@ use like [gitbash][gitbash]
  -->
 </section></section><section id="aio-12-cluster"><p>Content from <a href="12-cluster.html">Working on a remote HPC system</a></p>
 <hr>
-<p>Last updated on 2024-03-12 |
+<p>Last updated on 2024-03-19 |
         
         <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/edit/main/episodes/12-cluster.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -713,7 +713,7 @@ neighbors.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">It’s a Beautiful Day in the Neighborhood</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>The deepest layer should differ: <code>userid</code> is uniquely
 yours. Are there differences in the path at higher levels?</p>
@@ -758,12 +758,12 @@ login node should not be used for time-consuming or resource-intensive
 tasks. You should be alert to this, and check with your site’s operators
 or documentation for details of what is and isn’t allowed. In these
 lessons, we will avoid running jobs on the head node.</p>
-<div id="callout1" class="callout">
+<div id="dedicated-transfer-nodes" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="dedicated-transfer-nodes">Dedicated Transfer Nodes<a class="anchor" aria-label="anchor" href="#dedicated-transfer-nodes"></a>
+<div id="dedicated-transfer-nodes" class="callout-inner">
+<h3 class="callout-title">Dedicated Transfer Nodes<a class="anchor" aria-label="anchor" href="#dedicated-transfer-nodes"></a>
 </h3>
 <div class="callout-content">
 <p>If you want to transfer larger amounts of data to or from the
@@ -850,7 +850,7 @@ computer cluster, you need to log out first. To do so, type
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>There are several ways to do this. Most operating systems have a
 graphical system monitor, like the Windows Task Manager. More detailed
@@ -898,7 +898,7 @@ node.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb12">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -944,12 +944,12 @@ include userid, depending on how it is <a href="https://en.wikipedia.org/wiki/Mo
 </div>
 </div>
 </div>
-<div id="callout2" class="callout">
+<div id="shared-filesystems" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="shared-filesystems">Shared Filesystems<a class="anchor" aria-label="anchor" href="#shared-filesystems"></a>
+<div id="shared-filesystems" class="callout-inner">
+<h3 class="callout-title">Shared Filesystems<a class="anchor" aria-label="anchor" href="#shared-filesystems"></a>
 </h3>
 <div class="callout-content">
 <p>This is an important point to remember: files saved on one node
@@ -993,12 +993,12 @@ your research work on the different systems and nodes?</p>
 </div>
 </div>
 </div>
-<div id="callout3" class="callout">
+<div id="differences-between-nodes" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="differences-between-nodes">Differences Between Nodes<a class="anchor" aria-label="anchor" href="#differences-between-nodes"></a>
+<div id="differences-between-nodes" class="callout-inner">
+<h3 class="callout-title">Differences Between Nodes<a class="anchor" aria-label="anchor" href="#differences-between-nodes"></a>
 </h3>
 <div class="callout-content">
 <p>Many HPC clusters have a variety of nodes optimized for particular
@@ -1038,7 +1038,7 @@ use like [gitbash][gitbash]
  -->
 </section></section><section id="aio-13-scheduler"><p>Content from <a href="13-scheduler.html">Working with the scheduler</a></p>
 <hr>
-<p>Last updated on 2024-03-12 |
+<p>Last updated on 2024-03-19 |
         
         <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/edit/main/episodes/13-scheduler.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1144,7 +1144,7 @@ node?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1326,12 +1326,12 @@ nodes, than you have requested, and it will still run.</p>
 <p>It’s best if your requests accurately reflect your job’s
 requirements. We’ll talk more about how to make sure that you’re using
 resources effectively in a later episode of this lesson.</p>
-<div id="callout1" class="callout">
+<div id="command-line-options-or-job-script-options" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="command-line-options-or-job-script-options">Command line options or job script
+<div id="command-line-options-or-job-script-options" class="callout-inner">
+<h3 class="callout-title">Command line options or job script
 options?<a class="anchor" aria-label="anchor" href="#command-line-options-or-job-script-options"></a>
 </h3>
 <div class="callout-content">
@@ -1363,7 +1363,7 @@ options we have been specifying on the command line
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb16">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1465,12 +1465,12 @@ requested resources or kill the job outright. Other jobs on the node
 will be unaffected. This means that one user cannot mess up the
 experience of others, the only jobs affected by a mistake in scheduling
 will be their own.</p>
-<div id="callout2" class="callout">
+<div id="but-how-much-does-it-cost" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="but-how-much-does-it-cost">But how much does it cost?<a class="anchor" aria-label="anchor" href="#but-how-much-does-it-cost"></a>
+<div id="but-how-much-does-it-cost" class="callout-inner">
+<h3 class="callout-title">But how much does it cost?<a class="anchor" aria-label="anchor" href="#but-how-much-does-it-cost"></a>
 </h3>
 <div class="callout-content">
 <p>Although your job will be killed if it exceeds the selected runtime,
@@ -1707,7 +1707,7 @@ of cores in parallel for the calculation.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>Here is a modified script</p>
 <div class="codewrapper sourceCode" id="cb35">
@@ -1752,7 +1752,7 @@ output file to ensure that you understand the job distribution.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Show me the solution</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb36">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1799,7 +1799,7 @@ use like [gitbash][gitbash]
  -->
 </section></section><section id="aio-14-modules"><p>Content from <a href="14-modules.html">Accessing software via Modules</a></p>
 <hr>
-<p>Last updated on 2024-03-12 |
+<p>Last updated on 2024-03-19 |
         
         <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/edit/main/episodes/14-modules.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -2145,7 +2145,7 @@ use like [gitbash][gitbash]
  -->
 </section></section><section id="aio-15-transferring-files"><p>Content from <a href="15-transferring-files.html">Transferring files with remote computers</a></p>
 <hr>
-<p>Last updated on 2024-03-12 |
+<p>Last updated on 2024-03-19 |
         
         <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/edit/main/episodes/15-transferring-files.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -2289,7 +2289,7 @@ directory on ARCHER2.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb7">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2338,7 +2338,7 @@ local machine over SSH? Note that it may well fail, and that’s OK!</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>Using <code>curl</code> or <code>wget</code> commands like the
 following:</p>
@@ -2365,12 +2365,12 @@ directory tree rooted at the folder name you provided.</p>
 </h3>
 <pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="ex">[user@laptop</span> ~]$ scp <span class="at">-r</span> some-local-folder userid@login.archer2.ac.uk:target-directory/</span></code></pre>
 </div>
-<div id="callout1" class="callout">
+<div id="caution" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="caution">Caution<a class="anchor" aria-label="anchor" href="#caution"></a>
+<div id="caution" class="callout-inner">
+<h3 class="callout-title">Caution<a class="anchor" aria-label="anchor" href="#caution"></a>
 </h3>
 <div class="callout-content">
 <p>For a large directory — either in size or number of files — copying
@@ -2490,7 +2490,7 @@ page if you’re unsure.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb14">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2568,12 +2568,12 @@ might look familiar. Let’s see about that compression, using
 <pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a><span class="ex">userid@ln03:~</span><span class="op">&gt;</span> du <span class="at">-sh</span> hpc-lesson-data.tar.gz</span>
 <span id="cb16-2"><a href="#cb16-2" tabindex="-1"></a><span class="ex">36K</span>     hpc-intro-data.tar.gz</span></code></pre>
 </div>
-<div id="callout2" class="callout">
+<div id="files-occupy-at-least-one-block" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="files-occupy-at-least-one-block">Files Occupy at Least One “Block”<a class="anchor" aria-label="anchor" href="#files-occupy-at-least-one-block"></a>
+<div id="files-occupy-at-least-one-block" class="callout-inner">
+<h3 class="callout-title">Files Occupy at Least One “Block”<a class="anchor" aria-label="anchor" href="#files-occupy-at-least-one-block"></a>
 </h3>
 <div class="callout-content">
 <p>If the filesystem block size is larger than 36 KB, you’ll see a
@@ -2615,7 +2615,7 @@ flags.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4">Commands</h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb17">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2731,7 +2731,7 @@ use like [gitbash][gitbash]
  -->
 </section></section><section id="aio-17-resources"><p>Content from <a href="17-resources.html">Using resources effectively</a></p>
 <hr>
-<p>Last updated on 2024-03-12 |
+<p>Last updated on 2024-03-19 |
         
         <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/edit/main/episodes/17-resources.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -2872,7 +2872,7 @@ worked or not.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Creating a file called <code>submit-pi-mpi.slurm</code>:</p>
 <div class="codewrapper sourceCode" id="cb2">
@@ -3060,7 +3060,7 @@ figure for the Calculation core seconds. Is this what you observe?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>The table below shows example timings for runs on ARCHER2</p>
 <table class="table">
@@ -3274,7 +3274,7 @@ choose this option?</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3">Show me the solution</h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>The table below gives example results for ARCHER2 based on the
 example runtimes given in the solution above.</p>
@@ -3440,7 +3440,7 @@ use like [gitbash][gitbash]
  -->
 </section></section><section id="aio-18-responsibility"><p>Content from <a href="18-responsibility.html">Using shared resources responsibly</a></p>
 <hr>
-<p>Last updated on 2024-03-12 |
+<p>Last updated on 2024-03-19 |
         
         <a href="https://github.com/EPCCed/2024-02-23-hpc-intro-brunel/edit/main/episodes/18-responsibility.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -3503,12 +3503,12 @@ development tools. The cluster may have modules that need to be loaded,
 possibly in a certain order, and paths or library versions that differ
 from your laptop, and doing an interactive test run on the head node is
 a quick and reliable way to discover and fix these issues.</p>
-<div id="callout1" class="callout">
+<div id="login-nodes-are-a-shared-resource" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="login-nodes-are-a-shared-resource">Login Nodes Are a Shared Resource<a class="anchor" aria-label="anchor" href="#login-nodes-are-a-shared-resource"></a>
+<div id="login-nodes-are-a-shared-resource" class="callout-inner">
+<h3 class="callout-title">Login Nodes Are a Shared Resource<a class="anchor" aria-label="anchor" href="#login-nodes-are-a-shared-resource"></a>
 </h3>
 <div class="callout-content">
 <p>Remember, the login node is shared with all other users and your
@@ -3592,12 +3592,12 @@ to fail within 10 seconds of starting due to a trivial typo in the job
 script. This is extremely frustrating! Most systems provide dedicated
 resources for testing that have short wait times to help you avoid this
 issue.</p>
-<div id="callout2" class="callout">
+<div id="test-job-submission-scripts-that-use-large-amounts-of-resources" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="test-job-submission-scripts-that-use-large-amounts-of-resources">Test Job Submission Scripts That Use Large
+<div id="test-job-submission-scripts-that-use-large-amounts-of-resources" class="callout-inner">
+<h3 class="callout-title">Test Job Submission Scripts That Use Large
 Amounts of Resources<a class="anchor" aria-label="anchor" href="#test-job-submission-scripts-that-use-large-amounts-of-resources"></a>
 </h3>
 <div class="callout-content">
@@ -3635,12 +3635,12 @@ the system for your research).</p>
 <p>In all these cases, the service desk of the system you are using
 should be able to provide useful guidance on your options for data
 transfer for the volumes of data you will be using.</p>
-<div id="callout3" class="callout">
+<div id="your-data-is-your-responsibility" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="your-data-is-your-responsibility">Your Data Is Your Responsibility<a class="anchor" aria-label="anchor" href="#your-data-is-your-responsibility"></a>
+<div id="your-data-is-your-responsibility" class="callout-inner">
+<h3 class="callout-title">Your Data Is Your Responsibility<a class="anchor" aria-label="anchor" href="#your-data-is-your-responsibility"></a>
 </h3>
 <div class="callout-content">
 <p>Make sure you understand what the backup policy is on the file
@@ -3864,7 +3864,7 @@ use like [gitbash][gitbash]
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.2" class="external-link">sandpaper (0.16.2)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.4" class="external-link">pegboard (0.7.4)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.3" class="external-link">sandpaper (0.16.3)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.4" class="external-link">pegboard (0.7.4)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.1" class="external-link">varnish (1.0.1)</a></p>
 			</div>
 		</footer>
 </div> <!-- / div.container -->
@@ -3887,8 +3887,8 @@ use like [gitbash][gitbash]
   "url": "https://EPCCed.github.io/2024-02-23-hpc-intro-brunel/aio.html",
   "identifier": "https://EPCCed.github.io/2024-02-23-hpc-intro-brunel/aio.html",
   "dateCreated": "2024-02-14",
-  "dateModified": "2024-03-12",
-  "datePublished": "2024-03-12"
+  "dateModified": "2024-03-19",
+  "datePublished": "2024-03-19"
 }
 
   </script><script>
